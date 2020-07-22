@@ -10,6 +10,7 @@ class Author
 
   def write(book_title, date)
     Book.new({title: book_title,publication_date: date})
+
   end
 
 end
